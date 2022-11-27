@@ -10,7 +10,7 @@ Frontend [available here](https://github.com/air17/tinder-react).
 1. Clone this repo `git clone https://github.com/air17/tinder.git` and go to it's root folder.
 2. Rename `.env.template` file in the root folder to `.env` and fill it in.
 3. Run `docker compose up -d`
-4. Optional: create admin user with a command `docker exec -it web python manage.py createsuperuser`
+4. Optional: create admin user with a command `docker exec -it tinder python manage.py createsuperuser`
 
 ### Install for development
 
